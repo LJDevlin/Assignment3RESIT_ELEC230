@@ -14,7 +14,7 @@ def generate_launch_description():
         # Include the launch file that launches TurtleBot3 simulation
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(turtlebot3_simulation_launch_file),
-            launch_arguments={'TURTLEBOT3_MODEL': 'burger'}.items(),
+            launch_arguments={'TURTLEBOT3_MODEL': 'waffle'}.items(),
         ),
 
         # Launch your executable
